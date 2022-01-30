@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hotel Check in app</string>
+    <string name="Account">If you do not have an accoount?<font color="Red">Sign UP</font></string>
+    <string name="forget"><u>Forget password</u></string>
+    <string name="default_web_client" translatable="false">54011979968-jh0c6lq0qlbqv6pcsbeu9emn6b0i6okb.apps.googleusercontent.com</string>
+    />
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "54011979968",
+    "project_id": "hotel-check-in-a03b7",
+    "storage_bucket": "hotel-check-in-a03b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54011979968:android:0a6bc8266bf92515d2a525",
+        "android_client_info": {
+          "package_name": "com.example.hotelcheckinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54011979968-jh0c6lq0qlbqv6pcsbeu9emn6b0i6okb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDeUWmDFV7eBSqwKhY4GJ9g77_WbdiTHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54011979968-jh0c6lq0qlbqv6pcsbeu9emn6b0i6okb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
