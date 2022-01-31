@@ -7,6 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class DashBoard extends AppCompatActivity {
 
     TextView tajBengal;
@@ -14,6 +19,7 @@ public class DashBoard extends AppCompatActivity {
     TextView GoldenPark;
     TextView Auaris;
     TextView Marriot;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +35,8 @@ public class DashBoard extends AppCompatActivity {
         tajBengal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
                 Intent i = new Intent(DashBoard.this, ChecckinCheckoutDashBoard.class);
                 startActivity(i);
 
@@ -38,7 +46,7 @@ public class DashBoard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(DashBoard.this, ChecckinCheckoutDashBoard.class);
+                Intent i = new Intent(DashBoard.this, itcCheckinCheckOutDashBoard.class);
                 startActivity(i);
             }
         });
@@ -46,14 +54,14 @@ public class DashBoard extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(DashBoard.this, ChecckinCheckoutDashBoard.class);
+                Intent i = new Intent(DashBoard.this, GoldenParkCheckInCheckoutDashBoard.class);
                 startActivity(i);
             }
         });
         Auaris.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashBoard.this, ChecckinCheckoutDashBoard.class);
+                Intent i = new Intent(DashBoard.this, AurisCheckInCheckOutDashBoard.class);
                 startActivity(i);
 
             }
@@ -61,7 +69,7 @@ public class DashBoard extends AppCompatActivity {
         Marriot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(DashBoard.this, ChecckinCheckoutDashBoard.class);
+                Intent i = new Intent(DashBoard.this, MariotCheckInCheckOutDashBoard.class);
                 startActivity(i);
 
             }

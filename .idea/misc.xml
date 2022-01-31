@@ -12,13 +12,26 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/drawable/ic_round_family_restroom_24.xml" value="0.1824074074074074" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/drawable/rectangle.xml" value="0.20277777777777778" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/drawable/rectangle2.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_aauris.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_auris_check_in_check_out_dash_board.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_auris_check_out.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_auris_checkin.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_checckin_checkout_dash_board.xml" value="0.13360507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_checkout.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_dash_board.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_details.xml" value="0.1598731884057971" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_forget.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_golden_park_check_in.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_golden_park_check_in_checkout_dash_board.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_golden_park_check_out.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_itc_check_in.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_itc_check_out.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_itc_checkin_check_out_dash_board.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_mariot_check_in_check_out_dash_board.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_mariot_check_out.xml" value="0.11548913043478261" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_marriot_check_in.xml" value="0.11548913043478261" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_room_allocatiom.xml" value="0.16485507246376813" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/user/AndroidStudioProjects/HotelCheckinapp/app/src/main/res/layout/activity_splash_screen.xml" value="0.22" />

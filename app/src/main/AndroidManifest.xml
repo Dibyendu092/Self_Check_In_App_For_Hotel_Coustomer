@@ -12,6 +12,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HotelCheckInApp">
         <activity
+            android:name=".MariotCheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".MarriotCheckIn"
+            android:exported="false" />
+        <activity
+            android:name=".MariotCheckInCheckOutDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".AurisCheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".AurisCheckin"
+            android:exported="false" />
+        <activity
+            android:name=".AurisCheckInCheckOutDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".GoldenParkCheckOut"
+            android:exported="false" />
+        <activity
+            android:name=".GoldenParkCheckIn"
+            android:exported="false" />
+        <activity
+            android:name=".GoldenParkCheckInCheckoutDashBoard"
+            android:exported="false" />
+        <activity
+            android:name=".itcCheckOutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".itcCheckInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".itcCheckinCheckOutDashBoard"
+            android:exported="false" />
+        <activity
             android:name=".ChecckinCheckoutDashBoard"
             android:exported="false" />
         <activity

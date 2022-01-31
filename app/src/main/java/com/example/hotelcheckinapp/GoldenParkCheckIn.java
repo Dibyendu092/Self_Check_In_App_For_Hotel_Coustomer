@@ -4,23 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
 import java.util.Random;
 
-public class Details extends AppCompatActivity {
+public class GoldenParkCheckIn extends AppCompatActivity {
 
     EditText Name;
     EditText Email;
@@ -41,7 +36,7 @@ public class Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_details);
+        setContentView(R.layout.activity_golden_park_check_in);
 
         Name = findViewById(R.id.ed1);
         Email = findViewById(R.id.ed2);
@@ -50,8 +45,6 @@ public class Details extends AppCompatActivity {
         CheckInTime = findViewById(R.id.ed4);
         BtCheckIn = findViewById(R.id.txtcheckin);
         id = findViewById(R.id.txt7);
-
-
 
         final Random myRandom = new Random();
 
@@ -64,13 +57,12 @@ public class Details extends AppCompatActivity {
             public void onClick(View v) {
 
                 detailOfbooking();
-                Toast.makeText(Details.this, "Succesfully Booked the Room", Toast.LENGTH_SHORT).show();
+                Toast.makeText(GoldenParkCheckIn.this, "Succesfully Booked the Room", Toast.LENGTH_SHORT).show();
                 finish();
             }
         });
+
     }
-
-
     public void detailOfbooking(){
         String userUid1 = user.getUid();
         String a = Name.getText().toString();
@@ -80,12 +72,12 @@ public class Details extends AppCompatActivity {
         String e = CheckInTime.getText().toString();
 
 
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Booking id").setValue(val);
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Name").setValue(a);
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Email").setValue(b);
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Addhar No").setValue(c);
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Phone No").setValue(d);
-        databaseReference.child("India").child("Kolkata").child("tajBengal").child("Check in Details").child(userUid1).child("Check_in time").setValue(e);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Booking id").setValue(val);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Name").setValue(a);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Email").setValue(b);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Addhar No").setValue(c);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Phone No").setValue(d);
+        databaseReference.child("India").child("Kolkata").child("GoldenPark").child("Check in Details").child(userUid1).child("Check_in time").setValue(e);
 
     }
 
