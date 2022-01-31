@@ -9,39 +9,23 @@
 
 
     <ImageView
-        android:id="@+id/img1"
-        android:layout_width="91dp"
-        android:layout_height="66dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_power_settings_new_24" />
-
-    <ImageView
         android:id="@+id/imageView15"
         android:layout_width="419dp"
         android:layout_height="736dp"
+        android:layout_marginStart="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/rectangle2" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="364dp"
-        android:layout_height="684dp"
-        android:layout_marginStart="-350dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView15"
-        app:srcCompat="@drawable/rectangle" />
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card1"
         android:layout_width="255dp"
         android:layout_height="81dp"
-        android:layout_marginEnd="-270dp"
-        android:layout_marginBottom="-330dp"
+        android:layout_marginTop="-450dp"
+        android:layout_marginEnd="-350dp"
         app:cardCornerRadius="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView16"
-        app:layout_constraintEnd_toStartOf="@+id/imageView16">
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15">
 
         <TextView
             android:id="@+id/textView4"
@@ -52,4 +36,12 @@
             android:textColor="#00BFFF"
             android:textSize="34sp" />
     </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="77dp"
+        android:layout_height="82dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_power_settings_new_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

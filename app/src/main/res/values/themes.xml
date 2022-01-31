@@ -28,7 +28,7 @@
     </style>
     <style name="Theme.Login" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#00BFFF</item>
+        <item name="colorPrimary" >#00BFFF</item>
         <item name="colorPrimaryVariant">#00BFFF</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->

@@ -5,7 +5,7 @@
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#03A9F4"
+    android:background="@drawable/rectangle2"
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
@@ -14,7 +14,8 @@
         android:id="@+id/cardView6"
         android:layout_width="409dp"
         android:layout_height="181dp"
-        card_view:cardBackgroundColor="#00BFFF"
+        card_view:cardBackgroundColor="#00BFFF
+"
         card_view:cardCornerRadius="10dp"
         card_view:layout_constraintEnd_toEndOf="parent"
         card_view:layout_constraintTop_toTopOf="parent">
@@ -22,7 +23,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="409dp"
-            android:layout_height="181dp">
+            android:layout_height="181dp"
+            android:background="@drawable/rectangle2">
 
             <ImageView
                 android:id="@+id/imageView"
@@ -58,7 +60,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="23dp"
-                android:background="#00BFFF"
+                android:background="@drawable/rectangle2"
                 android:gravity="center"
                 android:hint="Email"
                 android:textColor="#EDF2F6"
@@ -74,7 +76,7 @@
                 android:layout_height="50dp"
                 android:layout_marginTop="13dp"
                 android:layout_marginEnd="23dp"
-                android:background="#00BFFF"
+                android:background="@drawable/rectangle2"
                 android:gravity="center"
                 android:hint="Password"
                 android:textColor="#2196F3"
@@ -130,7 +132,7 @@
                 android:layout_height="65dp"
                 android:layout_marginTop="14dp"
                 android:layout_marginEnd="24dp"
-                android:backgroundTint="#00BFFF"
+
                 card_view:cardCornerRadius="40dp"
                 card_view:layout_constraintEnd_toEndOf="parent"
                 card_view:layout_constraintTop_toBottomOf="@+id/txt3">
@@ -138,7 +140,8 @@
                 <TextView
                     android:id="@+id/bt1"
                     android:layout_width="match_parent"
-                    android:layout_height="54dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rectangle2"
                     android:gravity="center"
                     android:text="Log In"
                     android:textColor="#F3EBEB"
@@ -157,7 +160,7 @@
         android:layout_marginEnd="164dp"
         android:gravity="center"
         android:text="OR"
-        android:textColor="#00BFFF"
+        android:textColor="@color/white"
         android:textSize="16sp"
         card_view:layout_constraintEnd_toEndOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/cardView7" />
@@ -180,7 +183,7 @@
         android:layout_marginEnd="32dp"
         android:gravity="center"
         android:text="If You Dont Have An Account? Sing up"
-        android:textColor="#00BFFF"
+        android:textColor="@color/white"
         android:textSize="16sp"
         card_view:layout_constraintEnd_toEndOf="parent"
         card_view:layout_constraintTop_toBottomOf="@+id/bt2" />

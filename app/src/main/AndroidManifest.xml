@@ -13,49 +13,64 @@
         android:theme="@style/Theme.HotelCheckInApp">
         <activity
             android:name=".MariotCheckOut"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MariotCheckInCheckOutDashBoard"/>
         <activity
             android:name=".MarriotCheckIn"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MariotCheckInCheckOutDashBoard"/>
         <activity
             android:name=".MariotCheckInCheckOutDashBoard"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DashBoard"/>
         <activity
             android:name=".AurisCheckOut"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".AurisCheckInCheckOutDashBoard"/>
         <activity
             android:name=".AurisCheckin"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".AurisCheckInCheckOutDashBoard"/>
         <activity
             android:name=".AurisCheckInCheckOutDashBoard"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DashBoard"/>
         <activity
             android:name=".GoldenParkCheckOut"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard"/>
         <activity
             android:name=".GoldenParkCheckIn"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard"/>
         <activity
             android:name=".GoldenParkCheckInCheckoutDashBoard"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DashBoard"/>
         <activity
             android:name=".itcCheckOutActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".itcCheckinCheckOutDashBoard"/>
         <activity
             android:name=".itcCheckInActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".itcCheckinCheckOutDashBoard"/>
         <activity
             android:name=".itcCheckinCheckOutDashBoard"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DashBoard"/>
         <activity
             android:name=".ChecckinCheckoutDashBoard"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".DashBoard"/>
         <activity
             android:name=".CheckoutActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ChecckinCheckoutDashBoard"/>
         <activity
             android:name=".Details"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ChecckinCheckoutDashBoard"/>
         <activity
             android:name=".DashBoard"
             android:exported="false"
