@@ -49,4 +49,21 @@
             android:textColor="#EAE7E7"
             android:textSize="34sp" />
     </androidx.cardview.widget.CardView>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/anim"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="59dp"
+
+        android:background="@drawable/rectangle2"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/welcome"></com.airbnb.lottie.LottieAnimationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
