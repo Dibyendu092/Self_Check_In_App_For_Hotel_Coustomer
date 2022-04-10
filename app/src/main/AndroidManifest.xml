@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hotelcheckinapp">
+    package="com.example.hotelcheckinapp" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,67 +10,70 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HotelCheckInApp">
+        android:theme="@style/Theme.HotelCheckInApp" >
+        <activity
+            android:name=".HotelMailSActivity"
+            android:exported="false" />
         <activity
             android:name=".MariotCheckOut"
             android:exported="false"
-            android:parentActivityName=".MariotCheckInCheckOutDashBoard"/>
+            android:parentActivityName=".MariotCheckInCheckOutDashBoard" />
         <activity
             android:name=".MarriotCheckIn"
             android:exported="false"
-            android:parentActivityName=".MariotCheckInCheckOutDashBoard"/>
+            android:parentActivityName=".MariotCheckInCheckOutDashBoard" />
         <activity
             android:name=".MariotCheckInCheckOutDashBoard"
             android:exported="false"
-            android:parentActivityName=".DashBoard"/>
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".AurisCheckOut"
             android:exported="false"
-            android:parentActivityName=".AurisCheckInCheckOutDashBoard"/>
+            android:parentActivityName=".AurisCheckInCheckOutDashBoard" />
         <activity
             android:name=".AurisCheckin"
             android:exported="false"
-            android:parentActivityName=".AurisCheckInCheckOutDashBoard"/>
+            android:parentActivityName=".AurisCheckInCheckOutDashBoard" />
         <activity
             android:name=".AurisCheckInCheckOutDashBoard"
             android:exported="false"
-            android:parentActivityName=".DashBoard"/>
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".GoldenParkCheckOut"
             android:exported="false"
-            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard"/>
+            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard" />
         <activity
             android:name=".GoldenParkCheckIn"
             android:exported="false"
-            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard"/>
+            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard" />
         <activity
             android:name=".GoldenParkCheckInCheckoutDashBoard"
             android:exported="false"
-            android:parentActivityName=".DashBoard"/>
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".itcCheckOutActivity"
             android:exported="false"
-            android:parentActivityName=".itcCheckinCheckOutDashBoard"/>
+            android:parentActivityName=".itcCheckinCheckOutDashBoard" />
         <activity
             android:name=".itcCheckInActivity"
             android:exported="false"
-            android:parentActivityName=".itcCheckinCheckOutDashBoard"/>
+            android:parentActivityName=".itcCheckinCheckOutDashBoard" />
         <activity
             android:name=".itcCheckinCheckOutDashBoard"
             android:exported="false"
-            android:parentActivityName=".DashBoard"/>
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".ChecckinCheckoutDashBoard"
             android:exported="false"
-            android:parentActivityName=".DashBoard"/>
+            android:parentActivityName=".DashBoard" />
         <activity
             android:name=".CheckoutActivity"
             android:exported="false"
-            android:parentActivityName=".ChecckinCheckoutDashBoard"/>
+            android:parentActivityName=".ChecckinCheckoutDashBoard" />
         <activity
             android:name=".Details"
             android:exported="false"
-            android:parentActivityName=".ChecckinCheckoutDashBoard"/>
+            android:parentActivityName=".ChecckinCheckoutDashBoard" />
         <activity
             android:name=".DashBoard"
             android:exported="false"
@@ -91,13 +94,14 @@
             android:theme="@style/Theme.Login" />
         <activity
             android:name=".MainActivity"
+
             android:exported="false"
             android:theme="@style/Theme.Main" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"
             android:icon="@drawable/ic_baseline_house_24"
-            android:theme="@style/Theme.Splash">
+            android:theme="@style/Theme.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

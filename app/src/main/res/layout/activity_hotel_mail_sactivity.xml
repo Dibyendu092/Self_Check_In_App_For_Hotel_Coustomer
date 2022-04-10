@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HotelMailSActivity"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/Spinnercountry"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="Country"
+        android:background="#00BFFF"
+        android:backgroundTint="#00BFFF"
+        android:spinnerMode="dialog">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/Spinnerstate"
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="5dp"
+        android:background="#00BFFF"
+        android:backgroundTint="#00BFFF"
+        >
+
+    </Spinner>
+    <Button
+        android:layout_width="410dp"
+        android:layout_height="70dp"
+        android:text="Search"
+        android:id="@+id/SearchButton">
+
+    </Button>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false"
+        android:elevation="10dp"
+        tools:targetApi="lollipop"/>
+
+</LinearLayout>

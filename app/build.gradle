@@ -37,6 +37,7 @@ dependencies {
     implementation 'com.google.android.gms:play-services-auth:20.0.1'
     implementation "androidx.cardview:cardview:1.0.0"
     implementation 'com.google.firebase:firebase-database:20.0.3'
+    implementation 'com.firebaseui:firebase-ui-database:6.2.1'
 
    
     testImplementation 'junit:junit:4.+'
