@@ -24,10 +24,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
-
 public class HotelMailSActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener{
 
 
@@ -84,12 +80,13 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
 
 
         SearchButton.setOnClickListener(new View.OnClickListener() {
+            private Object error;
+
             @Override
             public void onClick(View view) {
-                if(SelectedCountry == null || SelectedState == null){
+                if (SelectedCountry == null || SelectedState == null) {
                     Toast.makeText(HotelMailSActivity.this, "Please Chose Appropiate State And Country:", Toast.LENGTH_SHORT).show();
-                }
-                else{
+                } else {
                     mbase = FirebaseDatabase.getInstance().getReference().child("Hotel").child(SelectedCountry).child(SelectedState);
                     mbase.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
@@ -105,21 +102,13 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
                                         new FirebaseRecyclerOptions.Builder<HotelCheckInModel>()
                                                 .setQuery(FirebaseDatabase.getInstance().getReference().child("Hotel").child(SelectedCountry).child(SelectedState).orderByChild("Name"), HotelCheckInModel.class)
                                                 .build();
-                                Collections.sort(options, new Comparator() {
-                                    @Override
-                                    public int compare() {
-                                        return ;
-                                    }
-                                });
-                            }
 
                                 adapter = new HotelCheckInAdapter(options);
                                 adapter.startListening();
                                 recyclerView.setAdapter(adapter);
                             }else{
-                                Toast.makeText(HotelMailSActivity.this, "Please Select Write city Under Right State ", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(HotelMailSActivity.this, "Please Select Correct City Under Correct State", Toast.LENGTH_SHORT).show();
                             }
-
                         }
 
                         @Override
@@ -128,7 +117,6 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
                         }
                     });
                 }
-
             }
         });
 
