@@ -13,10 +13,10 @@
         android:layout_height="70dp"
         android:layout_marginTop="20dp"
         android:autofillHints="Country"
-        android:background="#00BFFF"
-        android:backgroundTint="#00BFFF"
-        android:spinnerMode="dialog">
-
+        android:background="@drawable/roundedspinner"
+        android:spinnerMode="dialog"
+        android:textAlignment="center"
+        >
     </Spinner>
 
     <Spinner
@@ -24,8 +24,8 @@
         android:layout_width="410dp"
         android:layout_height="70dp"
         android:layout_marginTop="5dp"
-        android:background="#00BFFF"
-        android:backgroundTint="#00BFFF"
+        android:background="@drawable/roundedspinner"
+        android:textAlignment="center"
         >
 
     </Spinner>
@@ -33,7 +33,9 @@
         android:layout_width="410dp"
         android:layout_height="70dp"
         android:text="Search"
-        android:id="@+id/SearchButton">
+        android:id="@+id/SearchButton"
+        android:background="@drawable/cornersolid"
+        android:layout_marginTop="10dp">
 
     </Button>
     <androidx.recyclerview.widget.RecyclerView
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:nestedScrollingEnabled="false"
         android:elevation="10dp"
-        tools:targetApi="lollipop"/>
+        tools:targetApi="lollipop"
+        android:layout_marginTop="5dp"/>
 
 </LinearLayout>
