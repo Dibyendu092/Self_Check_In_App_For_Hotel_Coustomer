@@ -54,7 +54,8 @@
                     android:id="@+id/CheckOutButton"
                     android:background="@drawable/cornersolid"
                     android:backgroundTint="#FBF8F8"
-                    android:layout_marginLeft="15dp">
+                    android:layout_marginLeft="15dp"
+                    >
 
                 </Button>
             </LinearLayout>
