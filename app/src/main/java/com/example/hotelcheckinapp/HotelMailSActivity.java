@@ -27,7 +27,8 @@ import com.google.firebase.database.ValueEventListener;
 public class HotelMailSActivity extends AppCompatActivity  implements AdapterView.OnItemSelectedListener{
 
 
-    String[] country = { "Select Country","India", "USA", "China", "Japan", "Other"};
+    String[] country = { "Select Country","West Bengal", "USA", "China", "Japan", "Other"};
+
     String[] State = {"Select State", "Kolkata", "Delhi", "Pune"};
     String defaultTextForSpinner = "Select Country";
     String defaultTextForSpinner1 = "Select State";
