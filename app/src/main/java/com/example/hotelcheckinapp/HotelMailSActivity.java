@@ -1,5 +1,6 @@
 package com.example.hotelcheckinapp;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -45,6 +46,7 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
     DatabaseReference mbase;
 
     FirebaseAuth auth = FirebaseAuth.getInstance();
+    Button CheckIn;
 
 
 
@@ -56,6 +58,7 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
 
         SearchButton = findViewById(R.id.SearchButton);
         recyclerView = findViewById(R.id.recycler_view);
+        CheckIn = findViewById(R.id.CheckInButton);
 
 
         Spinner spin = (Spinner) findViewById(R.id.Spinnercountry);
