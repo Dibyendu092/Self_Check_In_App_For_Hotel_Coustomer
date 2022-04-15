@@ -42,6 +42,8 @@ public class HotelCheckInAdapter extends FirebaseRecyclerAdapter<HotelCheckInMod
                 @Override
                 public void onClick(View view) {
                     Intent i = new Intent(view.getContext(), HotelCheckOutActivity.class);
+                    i.putExtra("Hotelname",model.getName());
+                    i.putExtra("OrganizationalCode", model.getOrganizationalCode());
                     context1.startActivity(i);
                 }
             });
