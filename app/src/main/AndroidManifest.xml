@@ -12,96 +12,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HotelCheckInApp" >
         <activity
-            android:name=".HotelCheckOutActivity"
+            android:name=".HotelActivity.HotelCheckOutActivity"
             android:exported="false" />
         <activity
-            android:name=".HotelCheckInActivity"
+            android:name=".HotelActivity.HotelCheckInActivity"
             android:exported="false" />
         <activity
-            android:name=".HotelMailSActivity"
+            android:name=".HotelActivity.HotelMailSActivity"
             android:exported="false" />
         <activity
-            android:name=".MariotCheckOut"
+            android:name=".SignUpProcess.ForgetActivity"
             android:exported="false"
-            android:parentActivityName=".MariotCheckInCheckOutDashBoard" />
-        <activity
-            android:name=".MarriotCheckIn"
-            android:exported="false"
-            android:parentActivityName=".MariotCheckInCheckOutDashBoard" />
-        <activity
-            android:name=".MariotCheckInCheckOutDashBoard"
-            android:exported="false"
-            android:parentActivityName=".DashBoard" />
-        <activity
-            android:name=".AurisCheckOut"
-            android:exported="false"
-            android:parentActivityName=".AurisCheckInCheckOutDashBoard" />
-        <activity
-            android:name=".AurisCheckin"
-            android:exported="false"
-            android:parentActivityName=".AurisCheckInCheckOutDashBoard" />
-        <activity
-            android:name=".AurisCheckInCheckOutDashBoard"
-            android:exported="false"
-            android:parentActivityName=".DashBoard" />
-        <activity
-            android:name=".GoldenParkCheckOut"
-            android:exported="false"
-            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard" />
-        <activity
-            android:name=".GoldenParkCheckIn"
-            android:exported="false"
-            android:parentActivityName=".GoldenParkCheckInCheckoutDashBoard" />
-        <activity
-            android:name=".GoldenParkCheckInCheckoutDashBoard"
-            android:exported="false"
-            android:parentActivityName=".DashBoard" />
-        <activity
-            android:name=".itcCheckOutActivity"
-            android:exported="false"
-            android:parentActivityName=".itcCheckinCheckOutDashBoard" />
-        <activity
-            android:name=".itcCheckInActivity"
-            android:exported="false"
-            android:parentActivityName=".itcCheckinCheckOutDashBoard" />
-        <activity
-            android:name=".itcCheckinCheckOutDashBoard"
-            android:exported="false"
-            android:parentActivityName=".DashBoard" />
-        <activity
-            android:name=".ChecckinCheckoutDashBoard"
-            android:exported="false"
-            android:parentActivityName=".DashBoard" />
-        <activity
-            android:name=".CheckoutActivity"
-            android:exported="false"
-            android:parentActivityName=".ChecckinCheckoutDashBoard" />
-        <activity
-            android:name=".Details"
-            android:exported="false"
-            android:parentActivityName=".ChecckinCheckoutDashBoard" />
-        <activity
-            android:name=".DashBoard"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-        <activity
-            android:name=".ForgetActivity"
-            android:exported="false"
-            android:parentActivityName=".LoginActivity"
+            android:parentActivityName=".SignUpProcess.LoginActivity"
             android:theme="@style/Theme.ForgetPassword" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".SignUpProcess.SignUpActivity"
             android:exported="false"
-            android:parentActivityName=".LoginActivity"
+            android:parentActivityName=".SignUpProcess.LoginActivity"
             android:theme="@style/Theme.Signup" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".SignUpProcess.LoginActivity"
             android:exported="false"
             android:theme="@style/Theme.Login" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.Main" />
         <activity
             android:name=".SplashScreen"
             android:exported="true"

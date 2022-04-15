@@ -1,7 +1,5 @@
-package com.example.hotelcheckinapp;
+package com.example.hotelcheckinapp.HotelActivity;
 
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -18,6 +16,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.hotelcheckinapp.Adapter.CoustomAdapterSppiner;
+import com.example.hotelcheckinapp.Adapter.HotelCheckInAdapter;
+import com.example.hotelcheckinapp.Model.HotelCheckInModel;
+import com.example.hotelcheckinapp.R;
+import com.example.hotelcheckinapp.SignUpProcess.LoginActivity;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;

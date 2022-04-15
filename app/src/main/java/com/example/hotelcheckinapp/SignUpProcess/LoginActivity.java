@@ -1,4 +1,4 @@
-package com.example.hotelcheckinapp;
+package com.example.hotelcheckinapp.SignUpProcess;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hotelcheckinapp.HotelActivity.HotelMailSActivity;
+import com.example.hotelcheckinapp.R;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
@@ -145,7 +147,8 @@ public class LoginActivity extends AppCompatActivity {
         try {
             GoogleSignInAccount account = task.getResult(ApiException.class);
             FirebaseEntry(account);
-            Intent i = new Intent(LoginActivity.this, MainActivity.class);
+            Intent i = new Intent(LoginActivity.this, HotelMailSActivity.class);
+
             startActivity(i);
             Toast.makeText(LoginActivity.this, "You are Succesfully Signed in", Toast.LENGTH_SHORT).show();
             finish();

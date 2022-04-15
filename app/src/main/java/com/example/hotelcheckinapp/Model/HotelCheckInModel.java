@@ -1,4 +1,4 @@
-package com.example.hotelcheckinapp;
+package com.example.hotelcheckinapp.Model;
 
 public class HotelCheckInModel {
     String Name;

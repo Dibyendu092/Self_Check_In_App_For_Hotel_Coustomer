@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/rectangle2"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".SignUpProcess.LoginActivity">
 
 
     <androidx.cardview.widget.CardView
