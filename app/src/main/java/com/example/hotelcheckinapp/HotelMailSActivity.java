@@ -1,5 +1,6 @@
 package com.example.hotelcheckinapp;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -49,7 +50,6 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
     Button CheckIn;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -80,6 +80,10 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
         //Setting the ArrayAdapter data on the Spinner
         spin.setAdapter(aa);
         spin1.setAdapter(bb);
+
+
+
+
 
 
 
@@ -134,6 +138,8 @@ public class HotelMailSActivity extends AppCompatActivity  implements AdapterVie
 
             if(position >0){
                 SelectedCountry = country[position];
+                Intent i = new Intent(getApplicationContext(), HotelCheckInActivity.class);
+                i.putExtra("SelectedCountry", SelectedCountry);
             }
 
         }
